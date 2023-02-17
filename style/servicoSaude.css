@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box; 
+    font-family: 'Crete Round', serif;
+    font-family: 'Itim', cursive;
+    font-family: 'Kurale', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body{
+  margin: 10px;
+  padding: 15px;
+  background-color: green;
+}
+
+section{
+  background-color: beige;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+span{
+  color:green;
+  margin-left: 800px;
+}
+
+h1, h2{
+  color: green;
+}
+
+p{
+   font-size: large;
+   text-align: justify;
+}
+
+img{
+  border-radius: 15px;
+}
+
+link{
+  cursor: pointer;
+  color: green;
+}
+
+a:visited{
+    color:purple;
+}
+
+a:hover{
+  transform: scale(1.1);
+  transition: 250ms linear;
+} 
+
+a{
+  text-decoration: none;
+}
+
+button{
+  margin-bottom: 10px;
+  padding: 15px 15px;
+  width: 200px;
+  color: green;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: 250ms;
+}
+
+div{
+  text-align: center;
+}
+
+#menu ul{
+  margin: 0px;
+  list-style: none;
+}
+
+#menu ul li{
+  display: inline;
+}
+
+#menu ul li a{
+  padding: 20px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color:green;
+}
+
+#menu ul li a:hover{
+  cursor: pointer; 
+}
+
+#lk{
+  text-align: center;
+}
+
+li{
+  font-size: large;
+}
+
+#lk a{
+  margin-left: 20px;
+}
+
+/* style da pag 'formulario.html': */
+#whats{
+  margin-top: 20px;
+}
+
+#whats, #cb{
+  margin-right: 700px;
+}
+
+div #cb{
+  margin-bottom: 10px;
+}
+
+#whats:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 250ms linear;
+}
+
+input, textarea{
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+form{
+  margin-left: 100px;
+  width: 400px;
+}
+
+/* responsividade: */
+
+@media (max-width:600px){
+   #menu ul li{
+      margin-right: 30px;
+   }
+  
+   img{
+    width: 100%;
+   }
+
+   .pics{
+    height:100%;
+   }
+
+   form #fdados{
+    margin-right: 200px;
+   }
+
+   div form .resp{
+    margin-right: 200px;
+   }
+
+   a #whats{
+     width:30%;
+   }
+}
+
+@media (max-width: 400px){
+  body{
+  padding: 10px;
+  }
+
+ section{
+  padding: 10px; 
+ }
+
+ li{
+  margin-right: 80px;
+}
+
+ form, form #fdados, label{
+  width: 60%;
+ }
+
+ #send{
+  width: 95%;
+ }
+
+ input, textarea{
+  width: 120%;
+ }
+
+ h1, h2{
+  height: 80%;
+  text-align: center;
+ } 
+
+ #whats{
+  margin-right: 100px;
+ }
+}

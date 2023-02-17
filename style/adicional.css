@@ -1,0 +1,45 @@
+@media (max-width: 400px){
+    body{
+    padding: 10px;
+    }
+  
+   section{
+    padding: 10px; 
+   }
+  
+   #menu ul li{
+    margin-right: 50px;
+  }
+  
+   form, form #fdados, label{
+    width: 60%;
+   }
+  
+   #send{
+    width: 95%;
+   }
+  
+   input, textarea{
+    width: 120%;
+   }
+  
+   h2{
+    height: 80%;
+    text-align: center;
+   } 
+  
+   #whats{
+    margin-right: 100px;
+   }
+
+   #menu{
+    display: none;
+   }
+   
+   div form .resp{
+    width: 60%;
+    margin-right: 200px;
+    padding: 5px;
+   }
+  }
+  
